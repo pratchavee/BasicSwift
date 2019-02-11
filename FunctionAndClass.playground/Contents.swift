@@ -41,3 +41,5 @@ print(receive1)
 
 let area: Double = myClass.calculatorArea(base: 100, height: 100)
 print(area)
+
+
