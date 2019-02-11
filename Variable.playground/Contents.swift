@@ -23,6 +23,24 @@ number3 = 5000
 var answer = number1 + 1000 + Int(number2)
 var answer2 = number2 + 0.5 + Double(number1)
 
+//Array start from 0//
+var friends = ["Doramon", "Nobita", "Suneo"]
+print("This is Print on Cnsole")
+print("kanard kong Array =\(friends.count)")
+friends[1]
 
+//Add Member to Array
+friends.append("Joe")
 
+//delete Member
+friends.remove(at: 1)
+friends
+
+//Dictionary
+var offices = ["key1":"Doramon", "key2":"Nobita"]
+offices["key1"]
+offices.count
+
+offices["Yuki1"] = "Yukirin"
+offices
 
